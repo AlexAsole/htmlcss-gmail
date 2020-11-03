@@ -1,0 +1,94 @@
+/* Reset pagina */
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+/* Sfondo della pagina */
+body{
+background: url("../img/sfondo.jpg") ;
+color: #fff;
+}
+/* Formato pagina */
+#formato-pagina{
+box-sizing: border-box;
+margin: 10px 100px;
+}
+/* Header della pagina */
+header{
+box-sizing: border-box;
+padding: 10px 20px;
+border-bottom: solid 2px;
+font-weight: bolder;
+font-size: 22px;
+}
+/* allineatore immagine-testo */
+.allineatore{
+vertical-align: middle;
+}
+/* Prima sezione */
+#section1{
+box-sizing: border-box;
+margin: 0 auto;
+padding: 10px 0;
+}
+/* formato testo sezione 1 */
+#formato-sezione1{
+font-weight: bolder;
+font-size: 30px;
+}
+/* sfondo numero 30 in sezione 1 */
+.sfondo-numero{
+padding: 8px;
+border-radius: 50%;
+background-color: #1aef2f;
+}
+/* Sezione 2 */
+#section2{
+box-sizing: border-box;
+margin: 0 auto;
+padding: 10px 0;
+border-top: solid 2px;
+border-bottom: solid 2px;
+}
+/* box mail grigio */
+.boxgrigio{
+box-sizing: border-box;
+margin: 0 auto;
+padding: 5px 10px;
+background-color: #ccc;
+color: #000;
+border: solid 1px;
+}
+/* box mail bianco */
+.boxbianco{
+box-sizing: border-box;
+margin: 0 auto;
+padding: 5px 10px;
+background-color: #fff;
+color: #000;
+border: solid 1px;
+}
+/* Testo scuro */
+.bolder-text{
+font-weight: bolder;
+}
+/* testo trasparente */
+.trasparent{
+  opacity: 0.5;
+}
+/* formato footer */
+footer{
+text-align: center;
+font-weight: bolder;
+}
+/* scritta GMail grande */
+#gmail{
+font-size: 30px;
+}
+/* scritta corsiva */
+#corsivo{
+font-style: italic;
+
+
+}
